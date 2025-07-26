@@ -12,7 +12,7 @@ public class Json
 	private Object[] defaultValue;
 	private HashMap<String,Object> hashMap = new HashMap<>();
 	private int index = 0;
-	Json(String[] key,Object[] value,String filename,int index) throws IOException
+	public Json(String[] key,Object[] value,String filename,int index) throws IOException
 	{
 		/*
 		*@param defaultKey a string array
